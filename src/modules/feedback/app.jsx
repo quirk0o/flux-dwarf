@@ -1,5 +1,5 @@
 import React, {PropTypes, Component} from 'react'
-import store from 'create-store'
+import store from 'store'
 import Feedback from 'modules/feedback/feedback'
 import Button from 'modules/feedback/button'
 

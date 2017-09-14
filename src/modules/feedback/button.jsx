@@ -1,8 +1,8 @@
 import React, {PropTypes} from 'react'
-import store from 'create-store'
+import {addFeedback} from './actions'
 
 const Button = ({}) => (
-  <button onClick={() => store.addFeedback({content: 'asdfasdfasdf'})}>Add Feedback</button>
+  <button onClick={() => addFeedback('asdfasdfasdf')}>Add Feedback</button>
 )
 
 Button.propTypes = {}
