@@ -3,7 +3,7 @@ import store from 'store'
 import Feedback from 'modules/feedback/feedback'
 import Button from 'modules/feedback/button'
 
-class App extends Component {
+class FeedbackContainer extends Component {
   constructor(props) {
     super(props)
     this.state = store.getState()
@@ -27,6 +27,6 @@ class App extends Component {
   }
 }
 
-App.propTypes = {}
+FeedbackContainer.propTypes = {}
 
-export default App
+export default FeedbackContainer
